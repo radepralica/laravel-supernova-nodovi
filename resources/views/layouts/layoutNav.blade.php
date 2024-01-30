@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light bg-info border border-4 rounded">
+<nav class="navbar navbar-expand navbar-light  navbg border border-4 rounded">
     <a class="navbar-brand ms-3 " href="{{auth()->check() ?  route('admin.home'): '/'}}">{{auth()->check() ?  auth()->user()->firstName : 'Nodovi'}}</a>
     <ul class="nav navbar-nav ms-auto">
         @if (auth()->check())

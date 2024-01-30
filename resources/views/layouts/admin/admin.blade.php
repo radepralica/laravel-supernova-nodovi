@@ -2,7 +2,7 @@
 @section('header-title','Admin')
 @extends('layouts.layoutNav')
 @section('main-content')
-<div class="mt-4 p-3 bg-info text-white shadow-lg p-2 mb-5  rounded container">
+<div class="mt-4 p-3 bodytitle text-white shadow-lg p-2 mb-5  rounded container">
     <h1 style="text-align: center;">Nodovi i Ulice</h1>
 
 
@@ -22,7 +22,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <table class="table" style="font-size: larger;text-align: center;">
+            <table class="table table-striped" style="font-size: larger;text-align: center;">
                 <thead>
                     <tr>
                         <th>#</th>

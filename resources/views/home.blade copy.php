@@ -44,7 +44,7 @@
 
         <div class="container-fluid mt-3">
 
-            <div class="mt-4 p-3 bg-info text-white shadow-lg p-2 mb-5  rounded">
+            <div class="mt-4 p-3 bodytitle text-white shadow-lg p-2 mb-5  rounded">
                 <h1 style="text-align: center;">Nodovi i Ulice</h1>
 
             </div>
