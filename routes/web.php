@@ -38,7 +38,7 @@ Route::get('/create', [AdminController::class, 'create'])->name('admin.create')-
 Route::post('/create', [AdminController::class, 'store'])->name('admin.store');
 Route::get('nod/{nod}',[AdminController::class,'edit'])->name('admin.edit')->middleware('auth');
 Route::put('/nod/{nod}',[AdminController::class,'update'])->name('admin.update');
-Route::post('/nod/{nod}',[AdminController::class,'destroy'])->name('admin.delete');
+Route::post('/nod/{nod}',[AdminController::class,'destroy'])->name('admin.delete')->middleware('auth');
 
 
 
